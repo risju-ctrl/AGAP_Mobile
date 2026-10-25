@@ -15,10 +15,10 @@ import 'package:shared_preferences/shared_preferences.dart';
 const String kApiBase = 'https://web-road-accident-tracker.onrender.com/api';
 // Mapbox public token (yung "pk." galing sa client/.env ng web, VITE_MAPBOX_TOKEN).
 // Ilagay dito, o i-run gamit ang: flutter run --dart-define=MAPBOX_TOKEN=pk.xxxxx
-   const String kMapboxToken = String.fromEnvironment(
-     'MAPBOX_TOKEN',
-     defaultValue: '',
-   ); 
+  const String kMapboxToken = String.fromEnvironment(
+  'MAPBOX_TOKEN',
+  defaultValue: 'pk.eyJ1IjoicmlzanV1IiwiYSI6ImNtdmNwcGpndzBzb2gzNG9jbnY4eXNoYmoifQ.rvdbYPqP-gkXZ_N60t-Dkw',
+);
 const String kPackageName = 'com.agap.reporter'; // para sa OpenStreetMap (palitan kung iba ang package name mo)
 
 // Parehong Mapbox map ng web: dark-v11 (night) sa dark mode, streets-v12 sa light.
